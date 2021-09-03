@@ -575,6 +575,9 @@ footer div ul li h5:hover {
         margin: 0;
         box-sizing: border-box;
     }
+    .container {
+        margin: 0 auto;
+    }
     header nav .bar a {
         display: none; 
     }
@@ -618,6 +621,9 @@ footer div ul li h5:hover {
         max-width: 500px;
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .container .home-page .starting h1, .starting p {
+        font-size: 1rem;
     }
     .info-container, .icon-services {
         display: block;
