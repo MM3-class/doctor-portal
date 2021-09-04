@@ -560,7 +560,24 @@ footer div ul li a:hover {
 footer div ul li h5:hover {
     color: #0fddec;
 }
-
+@media only screen and (max-width: 992px) {
+    header nav .bar a {
+        font-size: 1rem;
+        display: inline-block;
+        color: #000 !important;
+        padding: 8px;
+    }
+    
+    .info-container .opening-hour, .location, .contact-us{
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media only screen and (min-width: 789px) and (max-width: 1279px) {
     .container {
         overflow-x: hidden;
@@ -578,6 +595,13 @@ footer div ul li h5:hover {
     }   
     header nav .bar a {
         color: #000 !important;
+    }
+    .info-container .opening-hour, .location, .contact-us{
+        width: 70%;
+    }
+    .info-location h4{
+        font-size: 6px;
+        width: 100px;
     }
 }
 @media only screen and (max-width: 768px ) {
