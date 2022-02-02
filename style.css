@@ -507,10 +507,8 @@ footer {
     height: 65vh;
 }
 footer div ul li {
-    margin: 15px;
     list-style: none;
     margin: 15px 0;
-
 }   
 footer .general :first-child {
     margin-top: 52px;
@@ -578,7 +576,7 @@ footer div ul li h5:hover {
         align-items: center;
     }
 }
-@media only screen and (min-width: 789px) and (max-width: 1279px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
     .container {
         overflow-x: hidden;
         padding: 20px;
@@ -602,6 +600,41 @@ footer div ul li h5:hover {
     .info-location h4{
         font-size: 6px;
         width: 100px;
+    }
+    .exceptional-dental .exceptional-head p, h1 {
+        font-size: .8rem;
+        display: block;
+        width: 80%;
+        padding-right: 10px;
+    }
+    .make-appointment .sub-make-appointment h5,
+    .make-appointment .sub-make-appointment h1 {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .review .patients-review{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .patients-blog {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doctors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-container {
+        width: 50%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 90px;
+    }
+    .our-service h1 {
+        margin: 0 auto;
     }
 }
 @media only screen and (max-width: 768px ) {
